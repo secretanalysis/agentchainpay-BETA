@@ -1,0 +1,16 @@
+[package]
+name = "agentchainpay-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "TRON-aware payment core with protocol decoding, TRX/TRC20 request builders, and prime-law decisioning."
+
+[lib]
+name = "agentchainpay_core"
+path = "src/lib.rs"
+
+[workspace]
+exclude = ["fuzz"]
+resolver = "2"
+
+[dependencies]
